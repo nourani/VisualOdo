@@ -1,0 +1,4 @@
+VisualOdo
+=========
+
+A demonstration of visual odometry for car-like vehicles using a downward looking camera. Please refer to the publications:   [1] Navid Nourani-Vatani and Paulo VK Borges, Correlation-based Visual Odometry for Car-like Vehicles, Journal of Field Robotics, September 2011  [2] Navid Nourani-Vatani, Jonathan Roberts and Mandyam V Srinivasan, Practical Visual Odometry for Car-like Vehicles, IEEE International conference on Robotics and Automation, May 2009  [3] Navid Nourani-Vatani, Jonathan Roberts and Mandyam V Srinivasan, IMU-aided Visual Odometry for Car-like Vehicles, Australasian conference on Robotics and Automation, Dec 2008  I would love to hear from you if you are using this software and finding it useful or finding bugs (They say ~10 for every 1000 lines of code, so there are probably about 15-17 of these in there!)  You can contact me at n.nourani-vatani@acfr.usyd.edu.au  Enjoy Navid 
