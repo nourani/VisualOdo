@@ -52,3 +52,6 @@ I have also commented out the auto-correlation template quality measure for the 
 NOTES ON IMU:
 I have removed the dependency on IMU in this code. It is however quite straight forward to incorporate the IMU readings to generate 3D odometry estimates. Look through the code to find the location to read the IMU and to add the roll and pitch data.
 
+
+TEST DATA:
+You can download a sequence of images from my website: http://robotics.nourani.dk/#post14
