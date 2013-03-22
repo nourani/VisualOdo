@@ -61,7 +61,7 @@ using namespace std;
 #define MOTION_FORWARD	 1
 #define MOTION_NONE		 0
 #define MOTION_REVERSE	-1
-#define					  imuAvailable false
+#define	imuAvailable	false
 
 /**
  * The maximum theoretical std dev is achieved in an image consisting of
@@ -89,7 +89,7 @@ IplImage * prevDrawFrame = NULL;
 IplImage * currDrawFrame = NULL;
 CvFont font;
 
-typedef struct VisualOdo_t {
+struct VisualOdo_t {
 
 	// Theoretical maximum frame rate sets the maximum possible velocity (see main)
 	float					  MAX_FRAME_RATE;
@@ -125,10 +125,10 @@ typedef struct VisualOdo_t {
 	double					  velPrev;
 	int 					  directionOfTravel;
 	float					  zConst;
-	// If IMU available we can set the offsets here
-	const static double		  imuOffsetRoll = 0.0;
-	const static double 	  imuOffsetPitch = 0.0;
-	const static double 	  imuOffsetYaw = 0.0;
+	// If IMU available we can set the offsets (in the cpp file)
+	const static double		  imuOffsetRoll;
+	const static double 	  imuOffsetPitch;
+	const static double 	  imuOffsetYaw;
 
 
 	// Forward prediciton variables

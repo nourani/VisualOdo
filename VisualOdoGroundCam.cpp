@@ -23,6 +23,14 @@
 #include "VisualOdoGroundCam.h"
 
 /**
+ * Set IMU off set values
+ */
+const double VisualOdo_t::imuOffsetRoll = 0.0;
+const double VisualOdo_t::imuOffsetPitch = 0.0;
+const double VisualOdo_t::imuOffsetYaw = 0.0;
+
+
+/**
  * \brief Looks in the directory and returns a sorted vector of files matching
  * 		the fileName.
  */
@@ -1341,6 +1349,7 @@ int main (int argc, char ** argv) {
 	MAX_THEORETICAL_MAD = vodo.frame->width * vodo.frame->height * pow(2.0,
 			vodo.frame->depth);
 
+		
 #ifdef USE_LIBMUSIC
 
 #else
